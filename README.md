@@ -52,12 +52,14 @@ git clone https://github.com/Omtatah/Album.git
 Alternatively, you could email the main developer at omtatahmurtallah@gmail.com with ideas on how this project could be more effective, efficient or beneficial.
 
 ## Versioning
+
 Used GIT and GitHub. There are commits attached to the entire project to show the management of versions.
 
 ## Copyright
 
 All Rights Reserved by [@Murtallah Omtatah](https://github.com/Omtatah)
-Other GitHub can however fork or clone this repository provided the necessary credit is given to the original author
+Other GitHub can however fork or clone this repository provided the necessary credit is given to the original author.
+
 ## License
 
 This project is licensed under the MIT License. Moringa School moreover retains certain rights to elements in the code of this program.
