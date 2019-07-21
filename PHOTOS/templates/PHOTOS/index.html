@@ -102,7 +102,23 @@
         <div class="row">
             <h1 class="text-center"> No Images Yet</h1>
         </div>
+
         {% endfor %}
+        <script>
+            function copyToClipboard(str) {
+                const el = document.createElement('textarea');
+                el.value = str;
+                el.setAttribute('readonly', '');
+                el.style.position = 'absolute';
+                el.style.left = '-9999px';
+                document.body.appendChild(el);
+                el.select();
+                document.execCommand('copy');
+                document.body.removeChild(el);
+            };
+        </script>
+
     </div>
 </div>
+
 {% endblock %}
