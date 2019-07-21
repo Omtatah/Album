@@ -3,19 +3,6 @@ from django.db import models
 # Create your models here.
 
 
-class Category(models.Model):
-    category = models.CharField(max_length=50)
-
-    def __str__(self):
-        return self.category
-
-    def save_category(self):
-        self.save()
-
-    def delete_category(self):
-        Category.objects.filter().delete()
-
-
 class Location(models.Model):
     location = models.CharField(max_length=50)
 
@@ -32,6 +19,19 @@ class Location(models.Model):
     def get_location(cls):
         location_found = cls.objects.all()
         return location_found
+
+
+class Category(models.Model):
+    category = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.category
+
+    def save_category(self):
+        self.save()
+
+    def delete_category(self):
+        Category.objects.filter().delete()
 
 
 class Image(models.Model):
