@@ -60,6 +60,6 @@ Used GIT and GitHub. There are commits attached to the entire project to show th
 All Rights Reserved by [@Murtallah Omtatah](https://github.com/Omtatah)
 Other GitHub can however fork or clone this repository provided the necessary credit is given to the original author.
 
-## License
+## License 
 
-This project is licensed under the MIT License. Moringa School moreover retains certain rights to elements in the code of this program.
+This project is licensed under the [MIT License](License). Moringa School moreover retains certain rights to elements in the code of this program.
